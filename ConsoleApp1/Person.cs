@@ -5,6 +5,9 @@ using Calabonga.EntityFramework;
 
 namespace Calabonga.Framework.Demo
 {
+    /// <summary>
+    /// Entity for testing Calabonga.EntityFramework
+    /// </summary>
     public class Person : IEntityId, IHaveName
     {
         [Key]

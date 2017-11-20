@@ -1,11 +1,8 @@
-﻿using System;
-using Calabonga.EntityFramework;
-
-namespace Calabonga.Framework.Demo
+﻿namespace Calabonga.Framework.Demo
 {
-    internal class CreateViewModel : IEntityId
+    internal class CreateViewModel
     {
-        public Guid Id { get; set; }
+
         public string Name { get; set; }
     }
 }
